@@ -34,10 +34,6 @@ class CalculosNumericosGUI:
         self.label_error.pack(pady=5)
 
     def realizar_calculos(self):
-        """
-        Método que se ejecuta al presionar el botón 'Calcular'.
-        Obtiene el valor de la entrada, realiza los cálculos y muestra los resultados o errores.
-        """
         self.label_error.config(text="") # Limpia mensajes de error previos
         self.label_resultado_log.config(text="Logaritmo Neperiano: ")
         self.label_resultado_raiz.config(text="Raíz Cuadrada: ")
